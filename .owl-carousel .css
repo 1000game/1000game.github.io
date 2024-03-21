@@ -1,0 +1,7 @@
+.owl-carousel .item {
+    transition: transform 0.1s ease; /* Smooth transition for transform property */
+}
+
+.owl-carousel .item:hover {
+    transform: scale(1.00); /* Scale up the item on hover for a subtle effect */
+}
