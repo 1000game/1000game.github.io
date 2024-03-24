@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="shortcut icon"type="image/x-icon" href="./assets/icon.png" >
     <link rel=" icon"type="image/x-icon" href="./assets/icon.png" >
     <title>simpleshoping</title>
@@ -23,9 +24,168 @@
     <link rel="stylesheet" href="https://ltp.crfnetwork.com/form-validate/css/style.css">
     <!-- Custom CSS file -->
     <link rel="stylesheet" href="./style.css">
+
+<!--nav bar by ai-->
+
+ <!--nav bar by ai -->
+ <button class="navbar-toggler navbar-button" type="button" data-toggle="collapse" data-target="#navbarNav"
+ aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+</button>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var navbarButton = document.querySelector(".navbar-button");
+
+        navbarButton.addEventListener("click", function() {
+            navbarButton.classList.toggle("slide-down");
+        });
+    });
+</script>
+
+
+ <!-- from ai -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- from ai -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+<!-- from ai -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          var scrollButton = document.querySelector(".scroll-up");
+          if (scrollButton) {
+            scrollButton.addEventListener("click", function(event) {
+              event.preventDefault(); // Prevent default link behavior
+              window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top of the page smoothly
+            });
+          }
+        });
+      </script>
+<!-- from ai -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var inputSwitcher = document.getElementById("inputSwicher");
+
+      inputSwitcher.addEventListener("change", function() {
+        document.body.classList.toggle("dark-mode", inputSwitcher.checked);
+      });
+    });
+  </script>
+
 </head>
 
+
+
 <body>
+
+    
+
+    <!-- from ai -->
+    <style>
+    
+       
+    
+    
+        .scroll-up {
+          position: fixed;
+          bottom: 70px; 
+          right: 170px; 
+          cursor: pointer;
+          background: rgba(0, 0, 0, 0.5);
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          border-radius: 5px;
+          z-index: 999;
+     
+          cursor: pointer;
+    background: rgba(150, 146, 146, 0.5);
+   
+    text-align: center;
+    border-radius: 5px;
+    z-index: 999;
+  
+     
+     
+        }
+
+
+        
+        body.light-mode {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    /* Dark mode styles */
+    body.dark-mode {
+      background-color: #504c4c;
+      color: #ffffff;
+    }
+
+    #formSwitch {
+      position: fixed;
+      bottom: 20px; /* Adjust the distance from the top */
+      right: 170px; /* Adjust the distance from the right */
+      position: fixed;
+   
+    cursor: pointer;
+    background: rgba(150, 146, 146, 0.5);
+   
+    text-align: center;
+    border-radius: 5px;
+    z-index: 999;
+  
+    }
+    
+     </style> 
+
+     <!--nav bar by ai-->
+    <style>
+        /* CSS for the sliding button */
+        .navbar-button {
+            cursor: pointer;
+       
+            transition: transform 0.3s ease; /* Smooth transition for sliding animation */
+            
+        }
+        .navbar-button {
+
+      /* Adjust the distance from the right */
+      cursor: pointer;
+   
+    
+    
+    
+    }
+
+    
+        /* CSS for the sliding animation */
+        .navbar-button.slide-down {
+            transform: translateY(130px); /* Slide down by 50px */
+        }
+        .navbar-button.slide-dow {
+     
+       /* Adjust the distance from the right */
+   
+    
+    }
+        
+
+       
+    </style>
+    
+    
+  
+ </style>
+
+ 
+
+
+ <body class="light-mode">
+<!-- from ai -->
+
     <div class="form-check form-switch ms-auto mt-3 me-3" id="formSwitch">
         <label class="form-check-label ms-3" for="inputSwicher">
             <i class="fas fa-sun light-mode"></i>
@@ -35,6 +195,20 @@
     </div>
     <span id="top"></span>
     <a class="scroll-up" href="#top"><i class="fas fa-chevron-up"></i></a>
+
+    <!-- from ai -->
+       <!-- Dark mode switch -->
+  <div class="form-check form-switch ms-auto mt-3 me-3" id="formSwitch">
+    <label class="form-check-label ms-3" for="inputSwicher">
+      <i class="fas fa-sun light-mode" aria-hidden="true"></i>
+      <i class="fas fa-moon dark-mode d-none" aria-hidden="true"></i>
+    </label>
+    <input class="form-check-input" type="checkbox" id="inputSwicher">
+  </div>
+
+
+ 
+    
     <!-- start #header -->
     <!--<header id="header">
         <div class="topnav d-flex justify-content-end px-4 py-1">
@@ -45,17 +219,25 @@
                 <a href="./manage.html" class="px-3 border-start text-dark"></a>
             </div>
         </div>
-         Primary Navigation -->
-        <nav class="navbar navbar-expand-lg px-3 navbar-dark color-second-bg">
+    -->
+       <nav class="navbar navbar-expand-lg px-3 navbar-dark color-second-bg">
             <img src="./assets/phone.png" class="logo">
             <a class="navbar-brand" style="color:#D9E70C ;" href="./index.html">simpleshoping.Shop</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button  class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto">
-                    <li class="nav-item active">
+    
+    
+                <li class="nav-item active">
+
+
+
+ 
+
+
                         <a class="nav-link" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
@@ -81,11 +263,24 @@
                     <a href="./cart.html" class="d-flex align-items-center rounded-pill bg-primary">
                         <span class="font-size-14 px-2 py-2 text-white">
                             <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                            
                         </span>
+
+                        
                         <div class="px-3 py-2 font-size-14 rounded-pill text-black bg-white">0</div>
                     </a>
+                    
                 </form>
+                
+               
+
+
             </div>
+            <!--nav bar by ai -->
+ <button class="navbar-toggler navbar-button" type="button" data-toggle="collapse" data-target="#navbarNav"
+ aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+</button>
         </nav>
         <!-- !Primary Navigation -->
     </header>
@@ -93,7 +288,7 @@
     <!-- start #main-site -->
     <main id="main-site">
         <!-- Owl-carousel -->
-       <!-- <section id="banner-area">
+        <section id="banner-area">
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img src="./assets/banner/Banner0.png" alt="Banner0">
@@ -109,7 +304,7 @@
                 </div>
             </div>
         </section>
-        <!-- !Owl-carousel -->
+        
         <!-- Top Sale -->
         <section id="top-sale">
             <div class="container py-5">
@@ -781,6 +976,14 @@
     <script src="script.js"></script>
 
     <script src="https://cdn.crfnetwork.com/js/dark-mode-switch.js"></script>
+
+   <!--- <div style="height: 2000px;">Scroll down to see the button</div>
+
+     Scroll-to-top button -->
+    
+  
+    <!-- JavaScript code -->
+   
 
 </body>
 
