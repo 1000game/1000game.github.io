@@ -219,7 +219,7 @@ body {
 .container {
     
    
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient(  #2589bf,  #2589bf );
     width: 100vw;
     height: 100vh;
 
